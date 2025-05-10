@@ -9,7 +9,7 @@ O enunciado do trabalho pode ser encontrado aqui:
 
 ## Dados do Aluno
 
-- **Nome completo:** [Preencher aqui]
+- **Nome completo:** João Paulo de Sousa Lima
 - **Matrícula:** [Preencher aqui]
 - **Curso:** [Preencher aqui]
 - **Turma:** [Preencher aqui]
