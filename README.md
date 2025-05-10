@@ -10,9 +10,9 @@ O enunciado do trabalho pode ser encontrado aqui:
 ## Dados do Aluno
 
 - **Nome completo:** João Paulo de Sousa Lima
-- **Matrícula:** [Preencher aqui]
-- **Curso:** [Preencher aqui]
-- **Turma:** [Preencher aqui]
+- **Matrícula:** 242005338
+- **Curso:** Orientação a Objetos
+- **Turma:** OO-2025_1
 
 ---
 
