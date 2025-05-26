@@ -79,10 +79,10 @@ public class Main {
         String telefone = scanner.nextLine().trim();
         System.out.println("Endereço:");
         String endereco = scanner.nextLine().trim();
-        System.out.println("Matrícula:");
+        System.out.println("Matricula:");
         String matricula = scanner.nextLine().trim();
         if (matricula.isEmpty()) {
-            System.out.println("Matrícula invalida!");
+            System.out.println("Matricula invalida!");
             return;
         }
         System.out.println("Ano de ingresso:");
