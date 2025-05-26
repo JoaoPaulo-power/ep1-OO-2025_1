@@ -35,7 +35,8 @@ O enunciado do trabalho pode ser encontrado aqui:
       -MateriaGerencia
    -Nota
    -Turma
-      -TurmaGerencia
+       -TurmaGerencia
+
    -Output (Dados em CSV)
 
 3. **Versão do JAVA utilizada:**  
