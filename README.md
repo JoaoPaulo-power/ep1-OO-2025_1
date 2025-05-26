@@ -9,10 +9,10 @@ O enunciado do trabalho pode ser encontrado aqui:
 
 ## Dados do Aluno
 
-- **Nome completo:** [Preencher aqui]
-- **Matrícula:** [Preencher aqui]
-- **Curso:** [Preencher aqui]
-- **Turma:** [Preencher aqui]
+- **Nome completo:** João Paulo de Sousa Lima
+- **Matrícula:** 242005338
+- **Curso:** Orientação a Objetos - 2025/1
+- **Turma:** 06
 
 ---
 
@@ -25,10 +25,21 @@ O enunciado do trabalho pode ser encontrado aqui:
    [Descrever aqui como executar o projeto. Exemplo: `java Main` ou o script usado]
 
 3. **Estrutura de Pastas:**  
-   [Descrever aqui as principais pastas do projeto]
+   -Main
+      -Pessoa
+         -Professor
+               -ProfGerencia
+            -Aluno
+               -AlunoGerencia
+   -Materia
+      -MateriaGerencia
+   -Nota
+   -Turma
+      -TurmaGerencia
+   -Output (Dados em CSV)
 
 3. **Versão do JAVA utilizada:**  
-   [Descrever aqui como versão do JAVA utilizada no projeto. Sugestão: `java 21`]
+   Java 21
 
 ---
 
@@ -53,24 +64,24 @@ O enunciado do trabalho pode ser encontrado aqui:
 
 ## Principais Funcionalidades Implementadas
 
-- [ ] Cadastro, listagem, matrícula e trancamento de alunos (Normais e Especiais)
-- [ ] Cadastro de disciplinas e criação de turmas (presenciais e remotas)
-- [ ] Matrícula de alunos em turmas, respeitando vagas e pré-requisitos
-- [ ] Lançamento de notas e controle de presença
+- [X] Cadastro, listagem, matrícula e trancamento de alunos (Normais e Especiais)
+- [X] Cadastro de disciplinas e criação de turmas (presenciais e remotas)
+- [X] Matrícula de alunos em turmas, respeitando vagas e pré-requisitos
+- [X] Lançamento de notas e controle de presença
 - [ ] Cálculo de média final e verificação de aprovação/reprovação
-- [ ] Relatórios de desempenho acadêmico por aluno, turma e disciplina
-- [ ] Persistência de dados em arquivos (.txt ou .csv)
+- [X] Relatórios de desempenho acadêmico por aluno, turma e disciplina
+- [X] Persistência de dados em arquivos (.txt ou .csv)
 - [ ] Tratamento de duplicidade de matrículas
-- [ ] Uso de herança, polimorfismo e encapsulamento
+- [X] Uso de herança, polimorfismo e encapsulamento
 
 ---
 
 ## Observações (Extras ou Dificuldades)
 
-- [Espaço para o aluno comentar qualquer funcionalidade extra que implementou, dificuldades enfrentadas, ou considerações importantes.]
+- A maior dificuldade foi implementar e salvar os dados em CSV. Além da tentativa de criação de um banco de dados utilizando o MySQL e a criação de uma interface gráfica utilizando o Jframe, que forma deixados de lado da parte final do projeto devido a complexidade da implementação de ambos no código final.
 
 ---
 
 ## Contato
 
-- [Opcional: E-mail pessoal do aluno.]
+- joaopaulosousalima975@gmail.com
