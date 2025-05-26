@@ -25,23 +25,21 @@ O enunciado do trabalho pode ser encontrado aqui:
    [Descrever aqui como executar o projeto. Exemplo: `java Main` ou o script usado]
 
 3. **Estrutura de Pastas:**  
-   -Main
+   
+Foi a seguinte:
 
-      -Pessoa
-
-         -Professor
+      -Main  
+         -Pessoa
+            -Professor
                -ProfGerencia
             -Aluno
                -AlunoGerencia
-   
--Materia
-      -MateriaGerencia
-   
--Nota
-   -Turma
-       -TurmaGerencia
-
-   -Output (Dados em CSV)
+      -Materia
+         -MateriaGerencia
+      -Nota
+      -Turma
+          -TurmaGerencia
+      -Output (Dados em CSV)
 
 3. **Versão do JAVA utilizada:**  
    Java 21
