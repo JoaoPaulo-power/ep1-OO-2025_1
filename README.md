@@ -26,14 +26,18 @@ O enunciado do trabalho pode ser encontrado aqui:
 
 3. **Estrutura de Pastas:**  
    -Main
+
       -Pessoa
+
          -Professor
                -ProfGerencia
             -Aluno
                -AlunoGerencia
-   -Materia
+   
+-Materia
       -MateriaGerencia
-   -Nota
+   
+-Nota
    -Turma
        -TurmaGerencia
 
