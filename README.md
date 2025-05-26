@@ -1,4 +1,4 @@
-# Sistema Acadêmico - FCTE
+:bookmark_tabs:# Sistema Acadêmico - FCTE
 
 ## Descrição do Projeto
 
@@ -24,7 +24,7 @@ O enunciado do trabalho pode ser encontrado aqui:
 2. **Execução:**  
    [Descrever aqui como executar o projeto. Exemplo: `java Main` ou o script usado]
 
-3. **Estrutura de Pastas:**  
+3. :clipboard:**Estrutura de Pastas:**  
    
 Foi a seguinte:
 
@@ -46,13 +46,13 @@ Foi a seguinte:
 
 ---
 
-## Vídeo de Demonstração
+:video_camera:## Vídeo de Demonstração
 
 - [Inserir o link para o vídeo no YouTube/Drive aqui]
 
 ---
 
-## Prints da Execução
+:floppy_disk:## Prints da Execução
 
 1. Menu Principal:  
    ![Inserir Print 1](caminho/do/print1.png)
