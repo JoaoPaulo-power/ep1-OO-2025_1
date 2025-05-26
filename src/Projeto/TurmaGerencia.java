@@ -48,7 +48,7 @@ public class TurmaGerencia {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-    }
+    }//meu deus 2
 
     public List<Turma> getTurmas() {
         return new ArrayList<>(turmas);

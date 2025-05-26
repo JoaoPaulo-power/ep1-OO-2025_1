@@ -3,14 +3,12 @@ package Projeto;
 
 public class Pessoa {
 
-
-    //atributos
     private String nome;
     private String dataNascimento;
     private String telefone;
     private String endereco;
 
-    //construtores
+
     public Pessoa (String nome, String dataNascimento, String telefone, String endereco ){
         this.nome =  nome;
         this.dataNascimento = dataNascimento;
@@ -26,7 +24,6 @@ public class Pessoa {
 
     }
 
-    //get e set
     public String getEndereco() {
 
         return endereco;

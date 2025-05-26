@@ -278,7 +278,7 @@ public class Main {
 
     private static void listarTurmas() {
         System.out.println("-- LISTA DE TURMAS --");
-        TurmaGerencia.listarTurmas(); //se mudar o system print ou o codigo quebra??????
+        TurmaGerencia.listarTurmas();
     }
 
     private static String escapeCSV(String field) {
@@ -290,7 +290,7 @@ public class Main {
     }
 
     private static void gerarCSV() {
-        System.out.println("| | SALVANDO... | |");
+        System.out.println("-- SALVANDO... --");
 
         File outputDir = new File("output");
         if (!outputDir.exists() && !outputDir.mkdirs()) {
@@ -344,9 +344,9 @@ public class Main {
                         escapeCSV(professor.getAnoDeAdmissao()),
                         escapeCSV(professor.getEmail())));
             }
-            System.out.println("Arquivo output/professores.csv gerado com sucesso.");
+            System.out.println("Arquivo professores gerado com sucesso.");
         } catch (IOException e) {
-            System.err.println("Erro ao gerar output/professores.csv: " + e.getMessage());
+            System.err.println("Erro ao gerar professores: " + e.getMessage());
             e.printStackTrace();
         }
         
@@ -359,9 +359,9 @@ public class Main {
                         escapeCSV(materia.getCargaHoraria()),
                         escapeCSV(materia.getCodigo())));
             }
-            System.out.println("Arquivo output/materias.csv gerado com sucesso.");
+            System.out.println("Arquivo materias gerado com sucesso.");
         } catch (IOException e) {
-            System.err.println("Erro ao gerar output/materias.csv: " + e.getMessage());
+            System.err.println("Erro ao gerar materias: " + e.getMessage());
             e.printStackTrace();
         }
         
@@ -379,9 +379,9 @@ public class Main {
                         turma.getAnoLetivo(),
                         alunoCount));
             }
-            System.out.println("Arquivo output/turmas.csv gerado com sucesso.");
+            System.out.println("Arquivo turmas gerado com sucesso.");
         } catch (IOException e) {
-            System.err.println("Erro ao gerar output/turmas.csv: " + e.getMessage());
+            System.err.println("Erro ao gerar turmas: " + e.getMessage());
             e.printStackTrace();
         }
         try (FileWriter writer = new FileWriter(new File(outputDir, "notas.csv"), StandardCharsets.UTF_8)) {
@@ -397,16 +397,16 @@ public class Main {
                             escapeCSV(nota.getData())));
                 }
             }
-            System.out.println("Arquivo output/notas.csv gerado com sucesso.");
+            System.out.println("Arquivo notas gerado com sucesso.");
         } catch (IOException e) {
-            System.err.println("Erro ao gerar output/notas.csv: " + e.getMessage());
+            System.err.println("Erro ao gerar notas: " + e.getMessage());
             e.printStackTrace();
         }
     }
 
     private static void sair() {
         System.out.println("==============================================");
-        System.out.println("=================== Salvando... ================");
+        System.out.println("==============SALVO COM SUCESSO!==============");
         System.out.println("==============================================");
     }
 
@@ -423,6 +423,6 @@ public class Main {
         System.out.println(" 8 - Matérias");
         System.out.println(" 9 - Turmas");
         System.out.println(" 10 - Salvar e Sair");
-        System.out.println("\nEscolha uma opção:");
+        System.out.println("\nEscolha uma opção -");
     }
 }
