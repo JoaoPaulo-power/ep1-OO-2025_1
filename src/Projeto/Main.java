@@ -152,7 +152,7 @@ public class Main {
         Professor professor = profGerencia.buscarProfessor(nomeProfessor);
 
         if (professor == null) {
-            System.out.println("Professor não encontrado. Tente novamente.");
+            System.out.println("Professor não encontrado. Tente NOvamente");
             return;
         }
 
@@ -333,7 +333,7 @@ public class Main {
 
         try (FileWriter writer = new FileWriter(new File(outputDir, "professores.csv"), StandardCharsets.UTF_8)) {
             writer.write("\uFEFF");
-            writer.write("Nome,DataNascimento,Telefone,Endereco,AreaFormacao,AnoAdmissao,Email\n");
+            writer.write("Nome,DataNascimento,Tel,Endereco,AreaFormacao,AnoAdmissao,Email\n");
             for (Professor professor : profGerencia.getProfessores()) {
                 writer.write(String.format("%s,%s,%s,%s,%s,%s,%s\n",
                         escapeCSV(professor.getNome()),
