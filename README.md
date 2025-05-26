@@ -1,4 +1,4 @@
-:bookmark_tabs:# Sistema Acadêmico - FCTE
+#:bookmark_tabs: Sistema Acadêmico - FCTE
 
 ## Descrição do Projeto
 
