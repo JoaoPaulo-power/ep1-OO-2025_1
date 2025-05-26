@@ -1,4 +1,4 @@
-:bookmark_tabs: #Sistema Acadêmico - FCTE
+# :bookmark_tabs: Sistema Acadêmico - FCTE
 
 ## Descrição do Projeto
 
@@ -46,13 +46,13 @@ Foi a seguinte:
 
 ---
 
-:video_camera:## Vídeo de Demonstração
+## :bookmark_tabs: Vídeo de Demonstração
 
 - [Inserir o link para o vídeo no YouTube/Drive aqui]
 
 ---
 
-:floppy_disk:## Prints da Execução
+## :floppy_disk: Prints da Execução
 
 1. Menu Principal:  
    ![Inserir Print 1](caminho/do/print1.png)
@@ -79,12 +79,12 @@ Foi a seguinte:
 
 ---
 
-## Observações (Extras ou Dificuldades)
+## :notebook_with_decorative_cover: Observações (Extras ou Dificuldades)
 
 - A maior dificuldade foi implementar e salvar os dados em CSV. Além da tentativa de criação de um banco de dados utilizando o MySQL e a criação de uma interface gráfica utilizando o Jframe, que forma deixados de lado da parte final do projeto devido a complexidade da implementação de ambos no código final.
 
 ---
 
-## Contato
+## :email:Contato
 
 - joaopaulosousalima975@gmail.com
