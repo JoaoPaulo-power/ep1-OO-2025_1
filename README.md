@@ -19,10 +19,10 @@ O enunciado do trabalho pode ser encontrado aqui:
 ## :books: Instruções para Compilação e Execução
 
 1. **Compilação:**  
-   [Descrever aqui como compilar o projeto. Exemplo: `javac Main.java` ou o script usado]
+   [javac Main.java]
 
 2. **Execução:**  
-   [Descrever aqui como executar o projeto. Exemplo: `java Main` ou o script usado]
+   [java Main]
 
 3. :open_file_folder: **Estrutura de Pastas:**  
    
