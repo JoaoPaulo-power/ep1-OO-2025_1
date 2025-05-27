@@ -83,8 +83,9 @@ https://github.com/user-attachments/assets/c344b6c2-b9d7-48a5-9bd9-e19263b4e0ff
 
 ## :pushpin: Observações (Extras ou Dificuldades)
 
-- A maior dificuldade foi implementar e salvar os dados em CSV. Além da tentativa de criação de um banco de dados utilizando o MySQL e a criação de uma interface gráfica utilizando o JavaSwing/Jframe, que foram deixados de lado da parte final do projeto devido a complexidade da implementação de ambos no código final.
-- Integração no Código do cálculo da Média Final, que não consegui terminar a tempo.
+- A maior dificuldade foi implementar e salvar os dados em CSV. Além da tentativa de criação de um banco de dados utilizando o MySQL e a criação de uma interface gráfica utilizando o JavaSwing/Jframe, que foram deixados de lado da parte final do projeto devido a complexidade da implementação de ambos no código final;
+- Integração no Código do cálculo da Média Final, que não consegui terminar a tempo;
+- Utilização do CSV com a utilização apenas da biblioteca Java 21, sem a utlização do repositório Maven.
 
 ---
 
