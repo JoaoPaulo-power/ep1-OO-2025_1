@@ -50,7 +50,7 @@ Foi a seguinte:
 
 -
 
-https://github.com/user-attachments/assets/abf0e66f-e738-44a8-8765-ffa3513cf251
+https://github.com/user-attachments/assets/c344b6c2-b9d7-48a5-9bd9-e19263b4e0ff
 
 ---
 
@@ -83,7 +83,8 @@ https://github.com/user-attachments/assets/abf0e66f-e738-44a8-8765-ffa3513cf251
 
 ## :pushpin: Observações (Extras ou Dificuldades)
 
-- A maior dificuldade foi implementar e salvar os dados em CSV. Além da tentativa de criação de um banco de dados utilizando o MySQL e a criação de uma interface gráfica utilizando o Jframe, que forma deixados de lado da parte final do projeto devido a complexidade da implementação de ambos no código final.
+- A maior dificuldade foi implementar e salvar os dados em CSV. Além da tentativa de criação de um banco de dados utilizando o MySQL e a criação de uma interface gráfica utilizando o JavaSwing/Jframe, que foram deixados de lado da parte final do projeto devido a complexidade da implementação de ambos no código final.
+- Integração no Código do cálculo da Média Final, que não consegui terminar a tempo.
 
 ---
 
